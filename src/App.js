@@ -1,7 +1,5 @@
-
-
 function App() {
-  return <div></div>;
+  return <div>Accordion</div>;
 }
 
 export default App;
