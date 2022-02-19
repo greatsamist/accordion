@@ -1,16 +1,19 @@
-* {
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-  font-family: sans-serif;
-  background: #fff;
+  font-size: 75%; /* 1rem 10px 12/16px => 0.625*/
+  font-family: "Varela Round", sans-serif;
+  background: purple;
 }
 
 body {
-  margin: 0;
-}
-
-main {
-  margin-top: 6rem;
+  box-sizing: border-box;
 }
